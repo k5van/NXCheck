@@ -5,7 +5,7 @@ checkURL () {
 	then
 		resulturl=$url
 		echo $url
-		echo $url > DMTCheck$(date +"%m_%d_%Y").txt
+#		echo $url > DMTCheck$(date +"%m_%d_%Y").txt
 	fi
 }
 
