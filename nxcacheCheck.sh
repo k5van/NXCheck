@@ -11,7 +11,7 @@ checkURL () {
 
 
 counter=0
-uri="http://nxcache.nexon.net/cms/2020/q1/"
+uri="http://nxcache.nexon.net/cms/2020/q2/"
 file='/'$1
 fileindex=$2
 
