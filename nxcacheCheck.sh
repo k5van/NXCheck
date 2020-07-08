@@ -11,12 +11,12 @@ checkURL () {
 
 
 counter=0
-uri="http://nxcache.nexon.net/cms/2020/q2/"
+uri="http://nxcache.nexon.net/cms/2020/q3/"
 file='/'$1
 fileindex=$2
 
 while [ $counter -lt $3 ]; do
-	buffer=$((counter+50))
+	buffer=$((counter+200))
 	while [ $counter -lt $buffer ]; do
 		url=$uri$fileindex$file".png"
 		#echo $url
